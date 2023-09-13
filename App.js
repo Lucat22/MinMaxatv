@@ -2,6 +2,7 @@ import { statusbar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import BiscoitodaSorte from './components/BiscoitodaSorte'
 import Profile from './components/Profile';
+import Cronometro from './components/Cronometro';
 
 export default function App() {
   return (
@@ -19,13 +20,8 @@ export default function App() {
       // <BiscoitoDaSorte/>
       // <IntroducaoEstilos/>
       // <ParOuImpar/>*/}
-      <Profile
-      imgUri='https://www.fakepersongenerator.com/Face/female/female20161024753601562.jpg'
-      genero='Feminino'
-      nome='Felicia J Ochoa'
-      email='aiyana1980@gmail.com'
-      telefone='630-337-6439'
-    />
+      // <Profile/>
+      <Cronometro />
 
   );
 }
